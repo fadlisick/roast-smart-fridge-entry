@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """Roast the Smart Fridge — one line, best laugh wins.
 
-The entry is a single roast line for the smart fridge. The line picks
-an angle nobody else will: the fridge is not a helpful appliance, it
-is a dairy snitch — a 3 AM text about expired milk, Wi-Fi included,
-with abandonment issues. Funny first, original angle second.
+The entry is a single roast line for a smart home gadget. The line picks
+an angle nobody else will: the robot vacuum is not a helpful cleaner,
+it is a golden retriever — it eats a charging cable a month and then
+plays a cheerful chime like it brought home a dead squirrel. Funny
+first, original angle second.
 
 Deterministic: no randomness, no network, no clock. The same line is
 written on every run.
@@ -14,8 +15,8 @@ import os
 import sys
 
 ROAST = (
-    "My smart fridge texts me at 3 AM to say the milk expired, "
-    "like I hired a dairy snitch with Wi-Fi and abandonment issues."
+    "My robot vacuum eats one charging cable a month and then plays "
+    "a cheerful chime like a golden retriever bringing me a dead squirrel."
 )
 
 
